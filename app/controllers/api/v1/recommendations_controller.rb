@@ -12,8 +12,8 @@ class Api::V1::RecommendationsController < ApplicationController
 
   def update
     @recommendation = Recommendation.find(params[:id])
-    rec_params.latitude.to_f
-    @recommendation.update(rec_params)
+    new_rec_params = rec_params[:latitude].to_f
+    @recommendation.update(new_rec_params)
 
     render json: @recommendation
   end
