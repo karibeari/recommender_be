@@ -12,7 +12,7 @@ Recommendation.create(location: 'Denver', category: 'Outdoor', name: "Balisteri 
 
 Recommendation.create(location: 'Denver', category: 'Outdoor', name: "St. Mary's Glacier", notes: "eary to hike to glacier, year round", url: "https://www.alltrails.com/trail/us/colorado/st-mary-s-glacier", image: 'https://dayhikesneardenver.com/wp-content/uploads/2014/07/00-st-marys-glacier-near-idaho-springs-colorado-header.jpg', recommended_by: 'Jenn', latitude: 39.8361701, longitude: -105.6487239, user: kari)
 
-Recommendation.create(location: 'Denver', category: 'Paddleboarding Lakes', name: "Gross Reservoir", notes: "a bit of a drive, but worth seeing animals in their natural habitat", url: "https://www.denverwater.org/recreation/gross-resevoir/", image: 'https://i0.wp.com/www.thetrailgirl.com/wp-content/uploads/2013/05/ospreypoint.jpg?ssl=1', recommended_by: 'Mom', latitude: 39.9456964, longitude: -105.3815105, user: elvis)
+Recommendation.create(location: 'Denver', category: 'Paddleboarding Spot', name: "Gross Reservoir", notes: "a bit of a drive, but worth seeing animals in their natural habitat", url: "https://www.denverwater.org/recreation/gross-resevoir/", image: 'https://i0.wp.com/www.thetrailgirl.com/wp-content/uploads/2013/05/ospreypoint.jpg?ssl=1', recommended_by: 'Mom', latitude: 39.9456964, longitude: -105.3815105, user: elvis)
 
 Recommendation.create(location: 'Denver', category: 'Restaurants', name: 'D Bar', notes: 'upscale desserts and drinks', url: "https://www.dbardenver.com/", image: 'https://images1.westword.com/imager/u/original/7046443/d_bar_food.jpg', recommended_by: 'Kyle', latitude: 39.7460178, longitude: -104.9814925, user: elvis)
 
